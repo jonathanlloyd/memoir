@@ -23,4 +23,4 @@ jobs:
         pip install poetry
         poetry install
     - name: Lint
-      run: poetry run python -m black memoirserver --check
+      run: make lint
